@@ -1,3 +1,3 @@
 # c graphics project
 
-![sample](dmt.jpg)
+<img src="samples/dmt.jpg"/>
