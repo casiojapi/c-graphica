@@ -8,5 +8,8 @@ main: netpbm.h main.c netpbm.o
 netpbm.o:netpbm.h netpbm.c
 	gcc $(CFLAGS) -c netpbm.c -lm
 
-clean: 
+clean:
 	rm *.o main
+
+cleanppm:
+	rm *.ppm
