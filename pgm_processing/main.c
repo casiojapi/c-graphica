@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 #include <ctype.h>
 #include <string.h>
 
@@ -12,6 +13,7 @@ int read_int(FILE *f);
 void print_pgm(pixel_t picture[MAX_HEIGHT][MAX_WIDTH], int width, int height, FILE *f);
 void invert_values(pixel_t picture[MAX_HEIGHT][MAX_WIDTH], int width, int height);
 void horizontal_mirror(pixel_t picture[MAX_HEIGHT][MAX_WIDTH], int width, int height);
+
 
 int read_int(FILE *f) {
     int c;
